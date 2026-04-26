@@ -1,0 +1,36 @@
+# Web framework
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+
+# Database
+sqlalchemy==2.0.36
+asyncpg==0.30.0
+alembic==1.14.0
+
+# Settings
+pydantic-settings==2.6.1
+pydantic[email]==2.10.3
+
+# Auth
+python-jose[cryptography]==3.3.0
+bcrypt==4.2.1
+passlib[bcrypt]==1.7.4
+
+# Storage
+aioboto3==13.2.0
+
+# HTTP client (webhooks, OCSP)
+httpx==0.28.1
+
+# Cryptography / PKI (certificate parsing, PAdES)
+cryptography==44.0.0
+
+# Email
+# aiosmtplib==3.0.2  # optional async SMTP
+
+# Dev / testing
+pytest==8.3.4
+pytest-asyncio==0.24.0
+httpx==0.28.1
+pytest-cov==6.0.0
+factory-boy==3.3.1
